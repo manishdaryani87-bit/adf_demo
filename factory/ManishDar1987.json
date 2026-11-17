@@ -1,0 +1,21 @@
+{
+	"name": "ManishDar1987",
+	"properties": {
+		"globalParameters": {
+			"email_recipient": {
+				"type": "string",
+				"value": "manishdaryani87@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "da3f3ff9-c9cc-44dd-a6da-2c298422f2c1",
+		"tenantId": "d0ac2957-2d88-438f-a8e1-c36de11b0084"
+	}
+}

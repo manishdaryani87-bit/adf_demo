@@ -1,0 +1,27 @@
+{
+	"name": "TGR_Event_Simple",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_File_Event",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"file_name": "@triggerBody().fileName"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/source_folder",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/22386c9a-0f9c-4974-a87c-2aad17b29f6f/resourceGroups/Test/providers/Microsoft.Storage/storageAccounts/demodatabeliadls12",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
