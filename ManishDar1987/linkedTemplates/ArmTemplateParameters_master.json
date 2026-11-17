@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ManishDar1987"
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demodatabeliadls12.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "demo-databeli22.database.windows.net"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "databeli"
+		},
+		"TGR_Event_Simple_properties_PL_File_Event_parameters_file_name": {
+			"value": "@triggerBody().fileName"
+		},
+		"TGR_Event_Simple_properties_typeProperties_scope": {
+			"value": "/subscriptions/22386c9a-0f9c-4974-a87c-2aad17b29f6f/resourceGroups/Test/providers/Microsoft.Storage/storageAccounts/demodatabeliadls12"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
